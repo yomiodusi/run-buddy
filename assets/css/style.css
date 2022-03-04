@@ -13,11 +13,11 @@ body {
 /* HEADER / NAV BAR STYLES START */
 
 header {
+  padding: 20px 35px;
+  background-color: #39a6b2;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 20px 35px;
-  background-color: #39a6b2;
 }
 
 header h1 {
@@ -56,12 +56,12 @@ header nav ul li a {
 
 /* FOOTER STYLES START */
 footer {
-  display: flex;
   background: #fce138;
   padding: 40px 35px;
-  width: 100%;
+  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 footer h2 {
@@ -179,7 +179,7 @@ section {
   width: 80%;
   margin: 0 auto;
   font-size: 20px;
-  text-align: center
+  text-align: center;
 }
 /* WHAT YOU DO STYLES END */
 
@@ -199,6 +199,7 @@ section {
   align-items: center;
   justify-content: space-between;
 }
+
 .step h3 {
   color: #024e76;
   font-size: 46px;
@@ -208,6 +209,7 @@ section {
 .step-info {
   flex: 2 70%;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -216,17 +218,17 @@ section {
   margin-right: 20px;
 }
 
-.step-text p {
-  color: #39a6b2;
-  font-size: 18px;
+.step-img img {
+  max-width: 100%;
 }
 
 .step-text {
   flex: 12;
 }
 
-.step-img img {
-  max-width: 100%;
+.step-text p {
+  color: #39a6b2;
+  font-size: 18px;
 }
 
 .step-text h4 {
@@ -234,6 +236,7 @@ section {
   line-height: 1.5;
   color: #024e76;
 }
+
 /* WHAT YOU DO STYLES END */
 
 /* MEET THE TRAINERS START */
@@ -247,9 +250,9 @@ section {
 
 .trainer {
   margin: 20px;
+  flex: 1;
   background: #024e76;
   color: #fce138;
-  flex: 1
 }
 
 .trainer img {
@@ -258,7 +261,7 @@ section {
 
 .trainer-bio {
   padding: 25px;
-  font-size: 17px;
+  line-height: 1.3;
 }
 
 .trainer-bio h3 {
@@ -272,7 +275,7 @@ section {
 }
 
 .trainer-bio p {
-  line-height: 1.3;
+  font-size: 17px;
 }
 /* TRAINER STYLES END */
 
@@ -290,6 +293,12 @@ section {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+.contact-info > * {
+  flex: 1;
+  margin: 15px;
+}
+
 .contact-info iframe {
   height: 400px;
 }
@@ -309,33 +318,30 @@ section {
   font-size: 16px;
   font-style: normal;
 }
+
 .contact-form input, .contact-form textarea {
-  border: 1px solid #024e76
-  display: block
-  padding: 7px 15px
-  font-size: 16px
-  color: #024e76
-  width: 100%
-  margin-bottom: 15px
-  margin-top: 5px
+  border: 1px solid #024e76;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #024e76;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 5px;
 }
 
 .contact-form button {
-  width: 100%
-  border: none
-  background: #fce138
-  color: #024e76
-  text-align: center
-  padding: 15px 0
-  font-size: 16px
-}
-.contact-info a {
-  color: #fce138;
+  width: 100%;
+  border: none;
+  background: #fce138;
+  color: #024e76;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 16px;
 }
 
-.contact-info > * {
-  flex: 1;
-  margin: 15px;
+.contact-info a {
+  color: #fce138;
 }
 
 
