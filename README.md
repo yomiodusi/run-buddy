@@ -8,7 +8,7 @@ A website that offers fitness training services.
 * CSS
 
 ## Website
-https://yomiodusi.github.io/run-buddy/
+https://yomiodusi.github.io/mrodusi-portfolio/
 ## Contribution
 Made with ❤️ by [Yomi Odusi]
 
